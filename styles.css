@@ -589,7 +589,14 @@ a {
   line-height: 1.9;
   color: #44556a;
 }
+}
+.director-text p {
+  margin: 0 0 14px;
+}
 
+.director-text p:last-child {
+  margin-bottom: 0;
+}
 @media (max-width: 900px) {
   .director-section {
     grid-template-columns: 1fr;
@@ -599,4 +606,3 @@ a {
   .director-image-wrap {
     max-width: 360px;
   }
-}
